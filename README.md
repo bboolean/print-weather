@@ -1,29 +1,42 @@
 # print-weather
 
-FIXME: description
+Print the weather for a specific latitude and longitude
 
-## Installation
+## Run
 
-Download from http://example.com/FIXME.
+```
+$ lein run 51.51 -0.13
 
-## Usage
+Mon 12:00 pm  ############### 59 °F 
+Mon 03:00 pm  ############### 59 °F 
+Mon 06:00 pm  ############# 55 °F 
+Mon 09:00 pm  ########### 52 °F 
 
-FIXME: explanation
+Tue 12:00 am  ########## 50 °F 
+Tue 03:00 am  ######### 48 °F 
+Tue 06:00 am  ########## 50 °F 
+Tue 09:00 am  ########### 52 °F 
+Tue 12:00 pm  ############# 55 °F 
+Tue 03:00 pm  ################ 61 °F 
+Tue 06:00 pm  ############## 57 °F 
+Tue 09:00 pm  ############## 57 °F 
 
-    $ java -jar print-weather-0.1.0-standalone.jar [args]
+Wed 12:00 am  ############## 57 °F 
+Wed 03:00 am  ############## 57 °F 
+Wed 06:00 am  ############## 57 °F 
+Wed 09:00 am  ############## 57 °F 
+Wed 12:00 pm  ################# 63 °F 
+Wed 03:00 pm  ################ 61 °F 
+Wed 06:00 pm  ############## 57 °F 
+Wed 09:00 pm  ############## 57 °F 
 
-## Options
+Thu 12:00 am  ############# 55 °F 
+Thu 03:00 am  ############ 54 °F 
+Thu 06:00 am  ############ 54 °F 
+```
 
-FIXME: listing of options this app accepts.
+## Tests
 
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+```
+$ lein test
+```
