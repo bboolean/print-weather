@@ -4,8 +4,7 @@
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [org.clojure/data.json "2.4.0"]
                  [clj-http "3.12.3"]
-                 [clojure.java-time "0.3.3"]
-                 [clj-time "0.15.2"]]
+                 [clojure.java-time "0.3.3"]]
   :main ^:skip-aot print-weather.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
