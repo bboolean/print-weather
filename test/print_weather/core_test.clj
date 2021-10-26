@@ -9,10 +9,10 @@
          (core/color-cond 0)))
     (is (=
          core/blue
-         (core/color-cond 5)))
+         (core/color-cond 6)))
     (is (=
          core/blue
-         (core/color-cond 6)))
+         (core/color-cond 8)))
     (is (=
          core/yellow
          (core/color-cond 12)))
