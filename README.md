@@ -1,6 +1,6 @@
 # print-weather
 
-Print the weather for a specific latitude and longitude
+Print the weather for a specific latitude and longitude.
 
 ## Run
 
